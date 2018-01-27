@@ -1,0 +1,70 @@
+{
+	"id": "2b3cb754-eb3d-4e88-4b74-bf58abc4e6a7",
+	"name": "hazelcast",
+	"description": "",
+	"order": [
+		"477bbda6-26fc-9362-2b87-12eed0574f7f",
+		"ccc29866-6e14-9f89-8465-489f5c78bb6c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1517047956654,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "477bbda6-26fc-9362-2b87-12eed0574f7f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:5006/api/values",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "2b3cb754-eb3d-4e88-4b74-bf58abc4e6a7",
+			"data": [],
+			"dataMode": "raw",
+			"name": "post",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517047959983,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"key\":\"k4\",\n\t\"value\":\"dsadasda\"\n}"
+		},
+		{
+			"id": "ccc29866-6e14-9f89-8465-489f5c78bb6c",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:5006/api/values/k4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2b3cb754-eb3d-4e88-4b74-bf58abc4e6a7",
+			"data": null,
+			"dataMode": "params",
+			"name": "get",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517047968011,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
