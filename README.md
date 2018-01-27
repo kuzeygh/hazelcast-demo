@@ -1,4 +1,6 @@
+# Hazelcast-demo
+## Needs
+* Docker (mine is v17.09.1)
+* Dotnetcore (v2.0.0)
 
-locate to the /src/hazelcast folder
-docker-compose up
-
+don't forget to run `docker-compose up` after /src/hazelcast folder is located.
