@@ -1,0 +1,10 @@
+/Users/onuraykac/dev/hazelcast-demo/src/client-app/bin/Debug/netcoreapp2.0/ClientApplication.deps.json
+/Users/onuraykac/dev/hazelcast-demo/src/client-app/bin/Debug/netcoreapp2.0/ClientApplication.runtimeconfig.json
+/Users/onuraykac/dev/hazelcast-demo/src/client-app/bin/Debug/netcoreapp2.0/ClientApplication.runtimeconfig.dev.json
+/Users/onuraykac/dev/hazelcast-demo/src/client-app/bin/Debug/netcoreapp2.0/ClientApplication.dll
+/Users/onuraykac/dev/hazelcast-demo/src/client-app/bin/Debug/netcoreapp2.0/ClientApplication.pdb
+/Users/onuraykac/dev/hazelcast-demo/src/client-app/obj/Debug/netcoreapp2.0/ClientApplication.csproj.CoreCompileInputs.cache
+/Users/onuraykac/dev/hazelcast-demo/src/client-app/obj/Debug/netcoreapp2.0/ClientApplication.AssemblyInfoInputs.cache
+/Users/onuraykac/dev/hazelcast-demo/src/client-app/obj/Debug/netcoreapp2.0/ClientApplication.AssemblyInfo.cs
+/Users/onuraykac/dev/hazelcast-demo/src/client-app/obj/Debug/netcoreapp2.0/ClientApplication.dll
+/Users/onuraykac/dev/hazelcast-demo/src/client-app/obj/Debug/netcoreapp2.0/ClientApplication.pdb
