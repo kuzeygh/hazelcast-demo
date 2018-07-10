@@ -6,7 +6,7 @@ services:
     volumes:
         - .:/cfg
     environment:
-        - JAVA_OPTS=-Dhazelcast.config=/configFolder/hazelcast.xml -Dhazelcast.public.ip=127.0.0.1 -Dhazelcast.port=5555 -Dgroup.name=hz-compose -Dgroup.password=s3crEt -Dhazelcast.mancenter.url=http://localhost:8080/mancenter
+        - JAVA_OPTS=-Dhazelcast.config=/cfg/hazelcast.xml -Dhazelcast.public.ip=127.0.0.1 -Dhazelcast.port=5555 -Dgroup.name=hz-compose -Dgroup.password=s3crEt -Dhazelcast.mancenter.url=http://localhost:8080/mancenter
     ports:
          - 5555:5701
     links:
@@ -17,7 +17,7 @@ services:
     volumes:
         - .:/cfg
      environment:
-        - JAVA_OPTS=-Dhazelcast.config=/configFolder/hazelcast.xml -Dhazelcast.public.ip=127.0.0.1 -Dhazelcast.port=5556 -Dgroup.name=hz-compose -Dgroup.password=s3crEt -Dhazelcast.mancenter.url=http://localhost:8080/mancenter
+        - JAVA_OPTS=-Dhazelcast.config=/cfg/hazelcast.xml -Dhazelcast.public.ip=127.0.0.1 -Dhazelcast.port=5556 -Dgroup.name=hz-compose -Dgroup.password=s3crEt -Dhazelcast.mancenter.url=http://localhost:8080/mancenter
     ports:
          - 5556:5701
     links:
